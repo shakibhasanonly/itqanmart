@@ -43,7 +43,7 @@ export default function HeroSlider() {
             key={idx}
             onClick={() => goTo(idx)}
             className={`h-2 rounded-full transition-all ${
-              idx === current ? 'w-6 bg-brand-600' : 'w-2 bg-white/70 hover:bg-white'
+              idx === current ? 'w-6 bg-red-600' : 'w-2 bg-white/70 hover:bg-white'
             }`}
             aria-label={`Slide ${idx + 1}`}
           />
