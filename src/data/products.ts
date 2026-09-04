@@ -21,7 +21,7 @@ export const products: Product[] = [
     price: 720,
     originalPrice: 900,
     description: 'Compact rechargeable handheld fan with 3 speed levels and LED display.',
-    images: ['/adp.png', '/fan-alife-2_.jpg', '/fan-alife-3.jpg'],
+    images: ['/fan-alife-1.jpg', '/fan-alife-2_.jpg', '/fan-alife-3.jpg'],
     longDescription: [
       'Three adjustable speed levels for personalised cooling.',
       'Built-in rechargeable battery with USB charging.',
@@ -72,7 +72,7 @@ export const products: Product[] = [
     price: 650,
     originalPrice: 990,
     description: 'Smart charging separator that auto-ejects when the battery is full.',
-    images: ['/adapter-1_.jpg''/adapter-1_.jpg', '/adapter-2.jpg'],
+    images: ['/adp.png''/adapter-1_.jpg', '/adapter-2.jpg'],
     longDescription: [
       'Automatically disconnects power once the battery is full to prevent overcharging.',
       'Compact separator design compatible with common chargers.',
