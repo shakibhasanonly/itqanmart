@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const slides = ['/hero-1.jpg', '/Picsart_26-09-04_10-11-44-113.jpg.jpeg', '/hero-2.jpeg', '/hero-3.jpeg']
+const slides = ['/hero-1.jpg', '/Picsart_26-09-04_10-44-45-972.jpg.jpeg', '/hero-2.jpeg', '/hero-3.jpeg']
 const SLIDE_INTERVAL = 3000
 
 export default function HeroSlider() {
