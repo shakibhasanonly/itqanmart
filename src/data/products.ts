@@ -72,7 +72,7 @@ export const products: Product[] = [
     price: 650,
     originalPrice: 990,
     description: 'Smart charging separator that auto-ejects when the battery is full.',
-    images: ['/adp.png''/adapter-1_.jpg', '/adapter-2.jpg'],
+    images: ['/adp.png','/adapter-1_.jpg', '/adapter-2.jpg'],
     longDescription: [
       'Automatically disconnects power once the battery is full to prevent overcharging.',
       'Compact separator design compatible with common chargers.',
