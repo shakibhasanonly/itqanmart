@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         brand: {
+        brand: {
   50:  '#fffdf2',
   100: '#fff9db',
   200: '#fff1b3',
@@ -19,6 +20,7 @@ export default {
   700: '#cc9f00',
   800: '#997700',
   900: '#665000',
+},
 },
         accent: {
           50: '#fffbeb',
