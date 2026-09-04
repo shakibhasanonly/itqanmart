@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const slides = ['/hero-1.jpg', '/Picsart_26-09-04_10-44-45-972.jpg.jpeg', '/hero-2.jpeg', '/hero-3.jpeg']
+const slides = ['/hero-1.jpg', '/Picsart_26-09-04_10-11-44-113.jpg.jpeg', '/hero-2.jpeg', '/hero-3.jpeg']
 const SLIDE_INTERVAL = 3000
 
 export default function HeroSlider() {
@@ -19,7 +19,7 @@ export default function HeroSlider() {
 
   return (
     <section className="relative w-full overflow-hidden bg-slate-50">
-      <div className="relative h-[220px] sm:h-[340px] md:h-[440px] lg:h-[520px]">
+      <div className="relative h-[220px] sm:h-auto sm:aspect-[3/2]">
         {slides.map((slide, idx) => (
           <div
             key={idx}
@@ -30,7 +30,7 @@ export default function HeroSlider() {
             <img
               src={slide}
               alt={`Banner ${idx + 1}`}
-              className="h-full w-full object-contain object-center"
+              className="h-full w-full object-contain object-center sm:object-cover"
             />
           </div>
         ))}
