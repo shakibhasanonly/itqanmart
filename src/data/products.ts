@@ -21,7 +21,7 @@ export const products: Product[] = [
     price: 720,
     originalPrice: 900,
     description: 'Compact rechargeable handheld fan with 3 speed levels and LED display.',
-    images: ['/fan-alife-1.jpg', '/fan-alife-2_.jpg', '/fan-alife-3.jpg'],
+    images: ['/adp.png', '/fan-alife-2_.jpg', '/fan-alife-3.jpg'],
     longDescription: [
       'Three adjustable speed levels for personalised cooling.',
       'Built-in rechargeable battery with USB charging.',
